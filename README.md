@@ -31,7 +31,6 @@ RegisterNumber:  212221240061
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
 dataset = pd.read_csv('student_scores.csv')
 dataset.head()
 X = dataset.iloc[:,:-1].values
